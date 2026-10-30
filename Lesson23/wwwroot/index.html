@@ -1,0 +1,220 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>CollegeDB CRUD</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: #f0f2f5;
+        }
+
+        h1 {
+            color: #1a73e8;
+            text-align: center;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            background: #fff;
+            border: 2px solid #1a73e8;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+            .tab.active {
+                background: #1a73e8;
+                color: white;
+            }
+
+        .section {
+            display: none;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+            .section.active {
+                display: block;
+            }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #1a73e8;
+            padding-bottom: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background: #1a73e8;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        input {
+            padding: 8px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 150px;
+        }
+
+        button {
+            padding: 8px 15px;
+            margin: 5px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            color: white;
+        }
+
+        .btn-add {
+            background: #28a745;
+        }
+
+        .btn-update {
+            background: #ffc107;
+            color: #333;
+        }
+
+        .btn-delete {
+            background: #dc3545;
+        }
+
+        .btn-load {
+            background: #1a73e8;
+        }
+
+        .form-row {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>CollegeDB CRUD</h1>
+
+    <div class="tabs">
+        <div class="tab active" onclick="showTab('students')">Студенты</div>
+        <div class="tab" onclick="showTab('groups')">Группы</div>
+        <div class="tab" onclick="showTab('subjects')">Предметы</div>
+        <div class="tab" onclick="showTab('teachers')">Преподаватели</div>
+        <div class="tab" onclick="showTab('grades')">Оценки</div>
+    </div>
+
+    <div id="students" class="section active">
+        <h2>Студенты</h2>
+        <button class="btn-load" onclick="loadStudents()">Загрузить</button>
+        <div class="form-row">
+            <input id="s_fn" placeholder="Имя">
+            <input id="s_ln" placeholder="Фамилия">
+            <input id="s_age" type="number" placeholder="Возраст">
+            <input id="s_gid" type="number" placeholder="ID группы">
+            <button class="btn-add" onclick="addStudent()">Добавить</button>
+        </div>
+        <div class="form-row">
+            <input id="s_upd_id" type="number" placeholder="ID для обновления">
+            <input id="s_upd_fn" placeholder="Новое имя">
+            <button class="btn-update" onclick="updateStudent()">Обновить</button>
+            <input id="s_del_id" type="number" placeholder="ID для удаления">
+            <button class="btn-delete" onclick="deleteStudent()">Удалить</button>
+        </div>
+        <table id="studentsTable"><thead><tr><th>ID</th><th>Имя</th><th>Фамилия</th><th>Возраст</th><th>Группа</th></tr></thead><tbody></tbody></table>
+    </div>
+
+    <div id="groups" class="section">
+        <h2>Группы</h2>
+        <button class="btn-load" onclick="loadGroups()">Загрузить</button>
+        <div class="form-row">
+            <input id="g_name" placeholder="Название группы">
+            <button class="btn-add" onclick="addGroup()">Добавить</button>
+        </div>
+        <div class="form-row">
+            <input id="g_upd_id" type="number" placeholder="ID">
+            <input id="g_upd_name" placeholder="Новое название">
+            <button class="btn-update" onclick="updateGroup()">Обновить</button>
+            <input id="g_del_id" type="number" placeholder="ID">
+            <button class="btn-delete" onclick="deleteGroup()">Удалить</button>
+        </div>
+        <table id="groupsTable"><thead><tr><th>ID</th><th>Название</th></tr></thead><tbody></tbody></table>
+    </div>
+
+    <div id="subjects" class="section">
+        <h2>Предметы</h2>
+        <button class="btn-load" onclick="loadSubjects()">Загрузить</button>
+        <div class="form-row">
+            <input id="sub_name" placeholder="Название предмета">
+            <button class="btn-add" onclick="addSubject()">Добавить</button>
+        </div>
+        <div class="form-row">
+            <input id="sub_upd_id" type="number" placeholder="ID">
+            <input id="sub_upd_name" placeholder="Новое название">
+            <button class="btn-update" onclick="updateSubject()">Обновить</button>
+            <input id="sub_del_id" type="number" placeholder="ID">
+            <button class="btn-delete" onclick="deleteSubject()">Удалить</button>
+        </div>
+        <table id="subjectsTable"><thead><tr><th>ID</th><th>Название</th></tr></thead><tbody></tbody></table>
+    </div>
+
+    <div id="teachers" class="section">
+        <h2>Преподаватели</h2>
+        <button class="btn-load" onclick="loadTeachers()">Загрузить</button>
+        <div class="form-row">
+            <input id="t_name" placeholder="Имя преподавателя">
+            <button class="btn-add" onclick="addTeacher()">Добавить</button>
+        </div>
+        <div class="form-row">
+            <input id="t_upd_id" type="number" placeholder="ID">
+            <input id="t_upd_name" placeholder="Новое имя">
+            <button class="btn-update" onclick="updateTeacher()">Обновить</button>
+            <input id="t_del_id" type="number" placeholder="ID">
+            <button class="btn-delete" onclick="deleteTeacher()">Удалить</button>
+        </div>
+        <table id="teachersTable"><thead><tr><th>ID</th><th>Имя</th></tr></thead><tbody></tbody></table>
+    </div>
+
+    <div id="grades" class="section">
+        <h2>Оценки</h2>
+        <button class="btn-load" onclick="loadGrades()">Загрузить</button>
+        <div class="form-row">
+            <input id="gr_sid" type="number" placeholder="ID студента">
+            <input id="gr_subid" type="number" placeholder="ID предмета">
+            <input id="gr_val" type="number" placeholder="Оценка">
+            <button class="btn-add" onclick="addGrade()">Добавить</button>
+        </div>
+        <div class="form-row">
+            <input id="gr_upd_id" type="number" placeholder="ID">
+            <input id="gr_upd_val" type="number" placeholder="Новая оценка">
+            <button class="btn-update" onclick="updateGrade()">Обновить</button>
+            <input id="gr_del_id" type="number" placeholder="ID">
+            <button class="btn-delete" onclick="deleteGrade()">Удалить</button>
+        </div>
+        <table id="gradesTable"><thead><tr><th>ID</th><th>Студент ID</th><th>Предмет ID</th><th>Оценка</th></tr></thead><tbody></tbody></table>
+    </div>
+
+    <script src="routes.js"></script>
+</body>
+</html>

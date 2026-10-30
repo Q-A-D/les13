@@ -1,0 +1,4 @@
+wwwroot\index.html
+wwwroot\routes.js
+C:\Users\Kavap\Desktop\Lesson23\Lesson23\wwwroot\routes.js
+C:\Users\Kavap\Desktop\Lesson23\Lesson23\wwwroot\index.html

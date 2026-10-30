@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kavap\\Desktop\\Lesson23\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A705D407-9DED-B16D-DB18-F5224E8F836A}|Lesson23\\Lesson23.csproj|c:\\users\\kavap\\desktop\\lesson23\\lesson23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705D407-9DED-B16D-DB18-F5224E8F836A}|Lesson23\\Lesson23.csproj|solutionrelative:lesson23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705D407-9DED-B16D-DB18-F5224E8F836A}|Lesson23\\Lesson23.csproj|c:\\users\\kavap\\desktop\\lesson23\\lesson23\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A705D407-9DED-B16D-DB18-F5224E8F836A}|Lesson23\\Lesson23.csproj|solutionrelative:lesson23\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705D407-9DED-B16D-DB18-F5224E8F836A}|Lesson23\\Lesson23.csproj|c:\\users\\kavap\\desktop\\lesson23\\lesson23\\wwwroot\\routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A705D407-9DED-B16D-DB18-F5224E8F836A}|Lesson23\\Lesson23.csproj|solutionrelative:lesson23\\wwwroot\\routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705D407-9DED-B16D-DB18-F5224E8F836A}|Lesson23\\Lesson23.csproj|c:\\users\\kavap\\desktop\\lesson23\\lesson23\\data\\collegedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705D407-9DED-B16D-DB18-F5224E8F836A}|Lesson23\\Lesson23.csproj|solutionrelative:lesson23\\data\\collegedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705D407-9DED-B16D-DB18-F5224E8F836A}|Lesson23\\Lesson23.csproj|c:\\users\\kavap\\desktop\\lesson23\\lesson23\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705D407-9DED-B16D-DB18-F5224E8F836A}|Lesson23\\Lesson23.csproj|solutionrelative:lesson23\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705D407-9DED-B16D-DB18-F5224E8F836A}|Lesson23\\Lesson23.csproj|c:\\users\\kavap\\desktop\\lesson23\\lesson23\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705D407-9DED-B16D-DB18-F5224E8F836A}|Lesson23\\Lesson23.csproj|solutionrelative:lesson23\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705D407-9DED-B16D-DB18-F5224E8F836A}|Lesson23\\Lesson23.csproj|c:\\users\\kavap\\desktop\\lesson23\\lesson23\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705D407-9DED-B16D-DB18-F5224E8F836A}|Lesson23\\Lesson23.csproj|solutionrelative:lesson23\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705D407-9DED-B16D-DB18-F5224E8F836A}|Lesson23\\Lesson23.csproj|c:\\users\\kavap\\desktop\\lesson23\\lesson23\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705D407-9DED-B16D-DB18-F5224E8F836A}|Lesson23\\Lesson23.csproj|solutionrelative:lesson23\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705D407-9DED-B16D-DB18-F5224E8F836A}|Lesson23\\Lesson23.csproj|c:\\users\\kavap\\desktop\\lesson23\\lesson23\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705D407-9DED-B16D-DB18-F5224E8F836A}|Lesson23\\Lesson23.csproj|solutionrelative:lesson23\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "routes.js",
+              "DocumentMoniker": "C:\\Users\\Kavap\\Desktop\\Lesson23\\Lesson23\\wwwroot\\routes.js",
+              "RelativeDocumentMoniker": "Lesson23\\wwwroot\\routes.js",
+              "ToolTip": "C:\\Users\\Kavap\\Desktop\\Lesson23\\Lesson23\\wwwroot\\routes.js",
+              "RelativeToolTip": "Lesson23\\wwwroot\\routes.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-10-30T18:57:53.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Kavap\\Desktop\\Lesson23\\Lesson23\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "Lesson23\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\Kavap\\Desktop\\Lesson23\\Lesson23\\wwwroot\\index.html",
+              "RelativeToolTip": "Lesson23\\wwwroot\\index.html",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-29T21:03:43.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kavap\\Desktop\\Lesson23\\Lesson23\\Program.cs",
+              "RelativeDocumentMoniker": "Lesson23\\Program.cs",
+              "ToolTip": "C:\\Users\\Kavap\\Desktop\\Lesson23\\Lesson23\\Program.cs",
+              "RelativeToolTip": "Lesson23\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwCUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T21:03:32.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CollegeDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Kavap\\Desktop\\Lesson23\\Lesson23\\Data\\CollegeDbContext.cs",
+              "RelativeDocumentMoniker": "Lesson23\\Data\\CollegeDbContext.cs",
+              "ToolTip": "C:\\Users\\Kavap\\Desktop\\Lesson23\\Lesson23\\Data\\CollegeDbContext.cs",
+              "RelativeToolTip": "Lesson23\\Data\\CollegeDbContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T21:03:25.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Grade.cs",
+              "DocumentMoniker": "C:\\Users\\Kavap\\Desktop\\Lesson23\\Lesson23\\Models\\Grade.cs",
+              "RelativeDocumentMoniker": "Lesson23\\Models\\Grade.cs",
+              "ToolTip": "C:\\Users\\Kavap\\Desktop\\Lesson23\\Lesson23\\Models\\Grade.cs",
+              "RelativeToolTip": "Lesson23\\Models\\Grade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T20:57:35.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\Kavap\\Desktop\\Lesson23\\Lesson23\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "Lesson23\\Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\Kavap\\Desktop\\Lesson23\\Lesson23\\Models\\Teacher.cs",
+              "RelativeToolTip": "Lesson23\\Models\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T20:57:05.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "C:\\Users\\Kavap\\Desktop\\Lesson23\\Lesson23\\Models\\Subject.cs",
+              "RelativeDocumentMoniker": "Lesson23\\Models\\Subject.cs",
+              "ToolTip": "C:\\Users\\Kavap\\Desktop\\Lesson23\\Lesson23\\Models\\Subject.cs",
+              "RelativeToolTip": "Lesson23\\Models\\Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T20:56:47.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\Kavap\\Desktop\\Lesson23\\Lesson23\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "Lesson23\\Models\\Group.cs",
+              "ToolTip": "C:\\Users\\Kavap\\Desktop\\Lesson23\\Lesson23\\Models\\Group.cs",
+              "RelativeToolTip": "Lesson23\\Models\\Group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T20:56:34.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Kavap\\Desktop\\Lesson23\\Lesson23\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Lesson23\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Kavap\\Desktop\\Lesson23\\Lesson23\\Models\\Student.cs",
+              "RelativeToolTip": "Lesson23\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T20:56:22.166Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
